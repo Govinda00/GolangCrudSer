@@ -1,6 +1,9 @@
 # GolangCrudSer
 used golang for simple crud and used validation
 
+clone: 
+https://github.com/Govinda00/GolangCrudSer.git
+
 1) extract the zip file
 Need to install goland and mysql in the local system
 go run main.go
