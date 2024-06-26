@@ -26,7 +26,7 @@ if err := http.ListenAndServe(":8002", r)
 
 4)collection is attached in the file and import the collection
 in your postman/any similar tool
-RestAPIGoServika.postman_collection.json
+RestAPIGoServika.postman_collection1.json
 
 
 7) now the run the main.go file
