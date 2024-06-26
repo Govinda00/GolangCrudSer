@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "ed950732-e915-47a6-af36-3938d092ab0d",
+		"name": "RestAPIGoServika",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17100864",
+		"_collection_link": "https://zm-api.postman.co/workspace/My-Workspace~c05c5d18-9f7a-496d-8f9c-3c243d60b05e/collection/17100864-ed950732-e915-47a6-af36-3938d092ab0d?action=share&source=collection_link&creator=17100864"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8002/pets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8002/pets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						"pets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8002/pets",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Fluffy\",\n    \"owner\": \"Alice\",\n    \"species\": \"Cat\",\n    \"birth\": \"2019-01-01T00:00:00Z\",\n    \"death\": null\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8002/pets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						"pets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8002/pets/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8002/pets/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						"pets",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8002/pets/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"kumar\",\n    \"owner\": \"govinda\",\n    \"species\": \"Cat\",\n    \"birth\": \"2019-01-01T00:00:00Z\",\n    \"death\": null\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8002/pets/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						"pets",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8002/pets/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8002/pets/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						"pets",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8002/pets/8/events",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"date\": \"2024-06-26T15:30:00Z\",\n    \"type\": \"govinda\",\n    \"remark\": \"Brushing and trimming\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8002/pets/8/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						"pets",
+						"8",
+						"events"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
