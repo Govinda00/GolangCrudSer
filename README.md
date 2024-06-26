@@ -21,7 +21,7 @@ file path: main.go
 if err := http.ListenAndServe(":8002", r)
 
 
-4)collection is attchec in the file and import the collection
+4)collection is attached in the file and import the collection
 in your postman/any similar tool
 RestAPIGoServika.postman_collection.json
 
